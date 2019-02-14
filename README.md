@@ -50,3 +50,5 @@ primitive values vs reference values
 - stack work: the stack holds as the name implies a stack, and manager data like stack(from top to bottom and limit space)
 - reference values: object, array these are stored on the HEAP memory
 - HEAP work: it's managed randomly, each element has it's own address, and stack will store the address for HEAP and HEAP store the actual value of object
+
+object.assign can not assign array in object and if we want to copy array also we can using slice() function or cloneDeep of lodash
